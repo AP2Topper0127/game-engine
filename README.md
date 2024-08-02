@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine/master/logo.png" alt="React Native Game Engine" height="120" />
+  <img src="https://raw.githubusercontent.com/ap2topper0127/game-engine/master/logo.png" alt="React Native Game Engine" height="120" />
 </p>
 
-# React Native Game Engine &middot; [![npm version](https://badge.fury.io/js/react-native-game-engine.svg)](https://badge.fury.io/js/react-native-game-engine) [![mit license](https://img.shields.io/badge/license-MIT-50CB22.svg)](https://opensource.org/licenses/MIT)
+# React Native Game Engine &middot; [![npm version](https://badge.fury.io/js/game-engine.svg)](https://badge.fury.io/js/game-engine) [![mit license](https://img.shields.io/badge/license-MIT-50CB22.svg)](https://opensource.org/licenses/MIT)
 
 Some components that make it easier to construct dynamic and interactive scenes using React Native.
 
@@ -41,19 +41,19 @@ Take a look at [Studious Bear](https://itunes.apple.com/us/app/studious-bear/id1
   </a>
 </p>
 
-See the [React Native Game Engine Handbook](https://github.com/ap2topper0127/react-native-game-engine-handbook) for a complimentary app, examples and ideas.
+See the [React Native Game Engine Handbook](https://github.com/ap2topper0127/game-engine-handbook) for a complimentary app, examples and ideas.
 
 <p align="center">
-  <a href="https://github.com/ap2topper0127/react-native-game-engine-handbook">
-    <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine-handbook/master/assets/single-touch.gif" alt="Single Touch Preview" height="450" />
-    <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine-handbook/master/assets/multi-touch.gif" alt="Multi Touch Preview" height="450" />
-    <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine-handbook/master/assets/rigid-bodies.gif" alt="Rigid Bodies Preview" height="450" />
+  <a href="https://github.com/ap2topper0127/game-engine-handbook">
+    <img src="https://raw.githubusercontent.com/ap2topper0127/game-engine-handbook/master/assets/single-touch.gif" alt="Single Touch Preview" height="450" />
+    <img src="https://raw.githubusercontent.com/ap2topper0127/game-engine-handbook/master/assets/multi-touch.gif" alt="Multi Touch Preview" height="450" />
+    <img src="https://raw.githubusercontent.com/ap2topper0127/game-engine-handbook/master/assets/rigid-bodies.gif" alt="Rigid Bodies Preview" height="450" />
    </a>
 </p>
 
 ## Quick Start
 
-If you've used **react-native-game-engine** before and understand the core concepts, take a look at [react-native-game-engine-template](https://github.com/ap2topper0127/react-native-game-engine-template). It's a sort of game kickstarter project that allows you to prototype ideas quickly and comes preloaded with a bunch of stuff like:
+If you've used **game-engine** before and understand the core concepts, take a look at [game-engine-template](https://github.com/ap2topper0127/game-engine-template). It's a sort of game kickstarter project that allows you to prototype ideas quickly and comes preloaded with a bunch of stuff like:
 
 - A 3D renderer
 - Physics
@@ -68,12 +68,12 @@ Otherwise, continue reading the quick start guide below.
 
 Firstly, install the package to your project:
 
-```npm install --save react-native-game-engine```
+```npm install --save game-engine```
 
 Then import the GameEngine component:
 
 ```javascript
-import { GameEngine } from "react-native-game-engine"
+import { GameEngine } from "game-engine"
 ```
 
 Let's code a scene that incorporates some multi-touch logic. To start with, let's create some components that can be rendered by React. Create a file called ```renderers.js```:
@@ -140,7 +140,7 @@ Finally let's bring it all together in our ```index.ios.js``` (or ```index.andro
 ```javascript
 import React, { PureComponent } from "react";
 import { AppRegistry, StyleSheet, StatusBar } from "react-native";
-import { GameEngine } from "react-native-game-engine";
+import { GameEngine } from "game-engine";
 import { Finger } from "./renderers";
 import { MoveFinger } from "./systems"
 
@@ -218,7 +218,7 @@ If you're curious, our ```GameEngine``` component is a loose implementation of t
 
 ### Do you know of any apps that currently utilize this library?
 
-> [Studious Bear](https://itunes.apple.com/us/app/studious-bear/id1434377602) and [React Native Donkey Kong](https://github.com/ap2topper0127/react-native-donkey-kong) both use this library. The [React Native Game Engine Handbook](https://github.com/ap2topper0127/react-native-game-engine-handbook) is a complimentary app that showcases some examples and ideas. If you're aware of any others or wouldn't mind a shameless plug here - please reach out.
+> [Studious Bear](https://itunes.apple.com/us/app/studious-bear/id1434377602) and [React Native Donkey Kong](https://github.com/ap2topper0127/react-native-donkey-kong) both use this library. The [React Native Game Engine Handbook](https://github.com/ap2topper0127/game-engine-handbook) is a complimentary app that showcases some examples and ideas. If you're aware of any others or wouldn't mind a shameless plug here - please reach out.
 
 ### How do I manage physics?
 
@@ -279,12 +279,12 @@ That said, React Native and game loops are not mutually exclusive, and we can us
 
 Firstly, install the package to your project:
 
-```npm install --save react-native-game-engine```
+```npm install --save game-engine```
 
 Then import the GameLoop component:
 
 ```javascript
-import { GameLoop } from "react-native-game-engine"
+import { GameLoop } from "game-engine"
 ```
 
 Let's code a basic scene with a single moveable game object. Add this into your ```index.ios.js``` (or ```index.android.js```):
@@ -292,7 +292,7 @@ Let's code a basic scene with a single moveable game object. Add this into your 
 ```javascript
 import React, { PureComponent } from "react";
 import { AppRegistry, StyleSheet, Dimensions, View } from "react-native";
-import { GameLoop } from "react-native-game-engine";
+import { GameLoop } from "game-engine";
 
 const { width: WIDTH, height: HEIGHT } = Dimensions.get("window");
 const RADIUS = 25;
@@ -424,12 +424,12 @@ The ```GameEngine``` component is a loose implementation of a [Component-Entity-
 
 To begin with, install the package to your project:
 
-```npm install --save react-native-game-engine```
+```npm install --save game-engine```
 
 Then import the GameEngine component:
 
 ```javascript
-import { GameEngine } from "react-native-game-engine"
+import { GameEngine } from "game-engine"
 ```
 
 Let's code a scene that incorporates some multi-touch logic. To start with, let's create some components that can be rendered by React. Create a file called ```renderers.js```:
@@ -496,7 +496,7 @@ Finally let's bring it all together in our ```index.ios.js``` (or ```index.andro
 ```javascript
 import React, { PureComponent } from "react";
 import { AppRegistry, StyleSheet, StatusBar } from "react-native";
-import { GameEngine } from "react-native-game-engine";
+import { GameEngine } from "game-engine";
 import { Finger } from "./renderers";
 import { MoveFinger } from "./systems"
 
