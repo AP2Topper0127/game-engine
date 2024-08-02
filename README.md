@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bberak/react-native-game-engine/master/logo.png" alt="React Native Game Engine" height="120" />
+  <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine/master/logo.png" alt="React Native Game Engine" height="120" />
 </p>
 
 # React Native Game Engine &middot; [![npm version](https://badge.fury.io/js/react-native-game-engine.svg)](https://badge.fury.io/js/react-native-game-engine) [![mit license](https://img.shields.io/badge/license-MIT-50CB22.svg)](https://opensource.org/licenses/MIT)
 
 Some components that make it easier to construct dynamic and interactive scenes using React Native.
 
-If you are looking for the **React (Web)** version of this library, go to [react-game-engine](https://github.com/bberak/react-game-engine).
+If you are looking for the **React (Web)** version of this library, go to [react-game-engine](https://github.com/ap2topper0127/react-game-engine).
 
 ## Table of Contents
 
@@ -41,19 +41,19 @@ Take a look at [Studious Bear](https://itunes.apple.com/us/app/studious-bear/id1
   </a>
 </p>
 
-See the [React Native Game Engine Handbook](https://github.com/bberak/react-native-game-engine-handbook) for a complimentary app, examples and ideas.
+See the [React Native Game Engine Handbook](https://github.com/ap2topper0127/react-native-game-engine-handbook) for a complimentary app, examples and ideas.
 
 <p align="center">
-  <a href="https://github.com/bberak/react-native-game-engine-handbook">
-    <img src="https://raw.githubusercontent.com/bberak/react-native-game-engine-handbook/master/assets/single-touch.gif" alt="Single Touch Preview" height="450" />
-    <img src="https://raw.githubusercontent.com/bberak/react-native-game-engine-handbook/master/assets/multi-touch.gif" alt="Multi Touch Preview" height="450" />
-    <img src="https://raw.githubusercontent.com/bberak/react-native-game-engine-handbook/master/assets/rigid-bodies.gif" alt="Rigid Bodies Preview" height="450" />
+  <a href="https://github.com/ap2topper0127/react-native-game-engine-handbook">
+    <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine-handbook/master/assets/single-touch.gif" alt="Single Touch Preview" height="450" />
+    <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine-handbook/master/assets/multi-touch.gif" alt="Multi Touch Preview" height="450" />
+    <img src="https://raw.githubusercontent.com/ap2topper0127/react-native-game-engine-handbook/master/assets/rigid-bodies.gif" alt="Rigid Bodies Preview" height="450" />
    </a>
 </p>
 
 ## Quick Start
 
-If you've used **react-native-game-engine** before and understand the core concepts, take a look at [react-native-game-engine-template](https://github.com/bberak/react-native-game-engine-template). It's a sort of game kickstarter project that allows you to prototype ideas quickly and comes preloaded with a bunch of stuff like:
+If you've used **react-native-game-engine** before and understand the core concepts, take a look at [react-native-game-engine-template](https://github.com/ap2topper0127/react-native-game-engine-template). It's a sort of game kickstarter project that allows you to prototype ideas quickly and comes preloaded with a bunch of stuff like:
 
 - A 3D renderer
 - Physics
@@ -218,7 +218,7 @@ If you're curious, our ```GameEngine``` component is a loose implementation of t
 
 ### Do you know of any apps that currently utilize this library?
 
-> [Studious Bear](https://itunes.apple.com/us/app/studious-bear/id1434377602) and [React Native Donkey Kong](https://github.com/bberak/react-native-donkey-kong) both use this library. The [React Native Game Engine Handbook](https://github.com/bberak/react-native-game-engine-handbook) is a complimentary app that showcases some examples and ideas. If you're aware of any others or wouldn't mind a shameless plug here - please reach out.
+> [Studious Bear](https://itunes.apple.com/us/app/studious-bear/id1434377602) and [React Native Donkey Kong](https://github.com/ap2topper0127/react-native-donkey-kong) both use this library. The [React Native Game Engine Handbook](https://github.com/ap2topper0127/react-native-game-engine-handbook) is a complimentary app that showcases some examples and ideas. If you're aware of any others or wouldn't mind a shameless plug here - please reach out.
 
 ### How do I manage physics?
 
